@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+.container {
+width: 700px;
+margin: 0px auto;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border: 2px solid lightgrey;
+  margin: 10px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+#welcome_message {
+  color: #003049;
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 30px;
+}
+
+#link_le_wagon {
+  font-family: 'Roboto Mono', sans-serif;
+  color:#003049;
+  font-size:18px;
+  line-height: 30px;
+  text-align: center;
+  }
+
+body {
+background-color: #edede9;
+font-family: 'Poppins', sans-serif;
+color:#003049;
+font-size:20px;
+line-height: 30px;
+text-align: center;
+}
+
+.header-style {
+  color: #575F7D;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size:20px;
+  line-height: 30px;
+}
+
+a {
+  text-decoration: none
+}
+
+#link_le_wagon:hover {
+  background-color: gold;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.link_follow_me {
+  font-size:35px;
+  text-align: center;
+}
+
+.img_class {
+  background-image: url("images/profile.jpg");
+  background-size: cover;
+  background-position: 50%;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin :0 auto;
+}
